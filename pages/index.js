@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { useState } from 'react';
-import styles from '../../styles/Home.module.css';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -106,7 +106,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p> 2025 KIDDY KIDS - KYOTO UNIVERSITY</p>
+        <p>© 2025 KIDDY KIDS - KYOTO UNIVERSITY</p>
       </footer>
     </div>
   );
